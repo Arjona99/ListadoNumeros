@@ -6,4 +6,5 @@
     <string name="btOrder">Order</string>
     <string name="btClear">Clear list</string>
     <string name="labelHex">HEX:</string>
+    <string name="errorEmptyNumber">Please type a number</string>
 </resources>

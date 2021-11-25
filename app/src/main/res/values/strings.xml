@@ -5,4 +5,5 @@
     <string name="btOrder">Ordenar</string>
     <string name="btClear">Limpiar lista</string>
     <string name="labelHex">HEX:</string>
+    <string name="errorEmptyNumber">Favor de introducir un número</string>
 </resources>

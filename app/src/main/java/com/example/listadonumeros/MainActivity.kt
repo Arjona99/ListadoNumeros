@@ -56,18 +56,23 @@ class MainActivity : AppCompatActivity() {
 
     fun addNumber() {
         val numberValue = etNumber?.text.toString()
-        val sdf = SimpleDateFormat("dd/M/yyyy hh:mm:ss")
 
-        val newNumber = Number(
-            adapter!!.count.toLong(),
-            numberValue,
-            numberValue.toInt().toString(16),
-            sdf.format(Date())
-        )
+        if (numberValue.isNotEmpty()) {
+            val sdf = SimpleDateFormat("dd/M/yyyy hh:mm:ss")
+            val newNumber = Number(
+                adapter!!.count.toLong(),
+                numberValue,
+                numberValue.toInt().toString(16),
+                sdf.format(Date())
+            )
 
-        datos.add(newNumber)
-        etNumber?.text = null
-        adapter!!.notifyDataSetChanged()
+            datos.add(newNumber)
+            etNumber?.text = null
+            adapter!!.notifyDataSetChanged()
+        } else {
+            etNumber?.setError(getString((R.string.errorEmptyNumber)))
+        }
+
     }
 
     fun changeOrder() {
