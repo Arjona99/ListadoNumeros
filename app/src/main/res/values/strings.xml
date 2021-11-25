@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Listado de números</string>
+    <string name="addNumber">Ingresa un número</string>
+    <string name="bt_Add">Añadir</string>
+    <string name="btOrder">Ordenar</string>
+    <string name="btClear">Limpiar lista</string>
+    <string name="labelHex">HEX:</string>
+</resources>

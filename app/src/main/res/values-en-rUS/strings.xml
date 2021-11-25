@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">List of numbers</string>
+    <string name="addNumber">Type a number</string>
+    <string name="bt_Add">Add</string>
+    <string name="btOrder">Order</string>
+    <string name="btClear">Clear list</string>
+    <string name="labelHex">HEX:</string>
+</resources>

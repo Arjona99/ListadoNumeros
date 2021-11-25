@@ -1,2 +1,2 @@
-# ListadoNumeros
-Exercise 2 for Mobile Computer Subject
+# RegistroUsuario
+User registration for Mobile Computing 
